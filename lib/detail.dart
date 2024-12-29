@@ -4,7 +4,7 @@ import 'resources/Fonts.dart';
 import 'resources/colors.dart';
 
 class DetailPage extends StatelessWidget {
-  final int index; // Added index as a parameter
+  final int index;
 
   const DetailPage({Key? key, required this.index}) : super(key: key);
 
