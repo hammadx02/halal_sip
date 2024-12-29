@@ -24,11 +24,18 @@ class DetailPage extends StatelessWidget {
                     Image.asset(Images.kIconDots, height: 18.0, width: 18),
                     const SizedBox(width: 50.0),
                     InkWell(
-                        onTap: () {
-                          Navigator.pop(context);
-                        },
-                        child: Image.asset(Images.kIconRight,
-                            height: 18.0, width: 24))
+                      onTap: () {
+                        Navigator.pop(context);
+                      },
+                      child: Transform.flip(
+                        flipX: true,
+                        child: Image.asset(
+                          Images.kIconRight,
+                          height: 18.0,
+                          width: 24,
+                        ),
+                      ),
+                    )
                   ],
                 ),
                 const SizedBox(height: 70.0),
