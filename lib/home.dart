@@ -71,10 +71,11 @@ class Home extends StatelessWidget {
                   decoration: BoxDecoration(
                     boxShadow: [
                       BoxShadow(
-                          color: color.withOpacity(0.1),
-                          offset: const Offset(10, 10),
-                          blurRadius: 10,
-                          spreadRadius: 5)
+                        color: color.withOpacity(0.1),
+                        offset: const Offset(10, 10),
+                        blurRadius: 10,
+                        spreadRadius: 5,
+                      ),
                     ],
                   ),
                   child: Hero(
