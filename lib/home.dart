@@ -75,11 +75,11 @@ class Home extends StatelessWidget {
                         offset: const Offset(10, 10),
                         blurRadius: 10,
                         spreadRadius: 5,
-                      ),
+                      )
                     ],
                   ),
                   child: Hero(
-                    tag: "bottle$index", // Unique tag for each Hero widget
+                    tag: "bottle$index",
                     child: Image.asset(image, height: 290),
                   ),
                 ),
