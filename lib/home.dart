@@ -52,7 +52,7 @@ class Home extends StatelessWidget {
         Container(
           height: 180.0,
           decoration: BoxDecoration(
-            color: color, // Update the color according to the drink
+            color: color,
             borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(30.0),
               bottomLeft: Radius.circular(30.0),
