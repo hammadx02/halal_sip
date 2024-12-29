@@ -12,7 +12,6 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: buildAppBar(),
       body: SingleChildScrollView(
-        // Wrap the content with SingleChildScrollView
         padding: const EdgeInsets.only(left: 40.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
